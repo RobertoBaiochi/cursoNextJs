@@ -1,12 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<GridGallery /> should match with snapshot 1`] = `
-.c3 {
-  color: #0A1128;
-  font-size: 6.4rem;
-  text-transform: uppercase;
-}
-
 .c5 {
   font-size: 2.4rem;
 }
@@ -41,6 +35,12 @@ exports[`<GridGallery /> should match with snapshot 1`] = `
   transform: scale(1.2) rotate(10deg);
 }
 
+.c3 {
+  color: #0A1128;
+  font-size: 6.4rem;
+  text-transform: uppercase;
+}
+
 .c0 {
   background: #fff;
   color: #0A1128;
@@ -63,14 +63,14 @@ exports[`<GridGallery /> should match with snapshot 1`] = `
 }
 
 @media (max-width:768px) {
-  .c3 {
-    font-size: 4rem;
+  .c6 {
+    grid-template-columns: 1fr;
   }
 }
 
 @media (max-width:768px) {
-  .c6 {
-    grid-template-columns: 1fr;
+  .c3 {
+    font-size: 4rem;
   }
 }
 
